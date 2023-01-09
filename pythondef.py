@@ -12,3 +12,4 @@ def asal_mi(sayi):
     else:
         print(False)
 asal_mi(13)
+asal_mi(12)
