@@ -30,7 +30,7 @@ insan.Sıç()"""
 calisan=Calisan("123","Hasan","Öcal","Adnan","Yasemin")
 print(calisan.ad,calisan.soyad)"""
 
-class Dikdortgen:
+"""class Dikdortgen:
     uzun_kenar=0
     kisa_kenar=0
     def AlanHesap(self,kenar1,kenar2):
@@ -42,4 +42,17 @@ class Kare(Dikdortgen):
 sekil1=Dikdortgen()
 sekil2=Kare()
 sekil2.AlanHesap(5,2)    
-sekil1.AlanHesap(3,3)
+sekil1.AlanHesap(3,3)"""
+"""class Dikdortgen:
+    def __init__(self,uzke,kiske) -> None:
+        self.uzke=uzke
+        self.kiske=kiske
+    def AlanHesap(self):
+        alan=self.kiske*self.uzke
+        return alan
+    def __add__(self,other):
+        return self.AlanHesap()+other.AlanHesap()
+sekil1=Dikdortgen(5,3)
+sekil2=Dikdortgen(7,2)
+alantop=sekil1+sekil2
+print(alantop)"""

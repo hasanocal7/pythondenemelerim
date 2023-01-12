@@ -7,4 +7,4 @@ sozluk={'ad':'hasan','soyad':'ocal'}"""
 j=2
 k="3"
 print(i+j+int(k))"""
-print(dir(locals()['__builtins__']))
+"""print(dir(locals()['__builtins__'])) LAZIM OLUR"""
